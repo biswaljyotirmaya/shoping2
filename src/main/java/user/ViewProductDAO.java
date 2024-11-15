@@ -22,6 +22,9 @@ public class ViewProductDAO {
 				product.setPcomp(rs.getString(3));
 				product.setPrice(rs.getDouble(4));
 				product.setPqnt(rs.getInt(5));
+
+				byte[] imageBytes = rs.getBytes("productImage");
+				product.setImage(imageBytes);
 				products.add(product);
 			}
 		} catch (Exception e) {

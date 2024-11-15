@@ -38,9 +38,13 @@ body {
 		</h2>
 
 		<div class="d-flex flex-column align-items-center mt-4 p-4">
-			<a href="AddProduct.html" class="btn btn-info mb-3 w-100">Add Product</a> <a
-				href="view" class="btn btn-secondary mb-3 w-100">View Details</a> <a
-				href="logout" class="btn btn-secondary mb-3 w-100">Logout</a>
+			<a href="AddProduct.html" class="btn btn-info mb-3 w-100">Add
+				Product</a> <a href="view" class="btn btn-secondary mb-3 w-100">View
+				Products</a>
+		</div>
+		<div
+			class="d-flex justify-content-center flex-cloumn align-items-center mt-3">
+			<a href="logout" class="btn btn-outline-danger">Logout</a>
 		</div>
 
 	</div>

@@ -41,6 +41,7 @@ public class UpdateProductServlet extends HttpServlet {
 			if (rowCount > 0) {
 				Double totalPrice = product.getPrice() * Integer.parseInt(quantity);
 				req.setAttribute("total", totalPrice);
+				session.setAttribute("Product", product);
 				req.getRequestDispatcher("OrderConfirmed.jsp").forward(req, resp);
 			}
 		}

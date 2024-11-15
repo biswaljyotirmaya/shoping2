@@ -22,7 +22,7 @@
 
 	<a href="AddProduct.html">Add Product</a>
 	<br>
-	<a href="view">View Product</a>
+	<a href="view">View Products</a>
 	<br>
 	<a href="logout">Log out</a>
 	<br>
